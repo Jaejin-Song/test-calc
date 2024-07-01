@@ -2,6 +2,13 @@
   "name": "@wowlxx28/test-calc",
   "packageManager": "yarn@4.2.2",
   "version": "0.0.1",
-  "main": "index.js",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": {
+      "import": "./src/index.js",
+      "require": "./src/index.cjs"
+    }
+  },
   "license": "MIT"
 }

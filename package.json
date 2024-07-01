@@ -1,4 +1,7 @@
 {
-  "name": "test-calc",
-  "packageManager": "yarn@4.2.2"
+  "name": "@wowlxx28/test-calc",
+  "packageManager": "yarn@4.2.2",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT"
 }
